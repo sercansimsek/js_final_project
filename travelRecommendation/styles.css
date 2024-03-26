@@ -37,7 +37,7 @@
 .navbar_item {
   text-decoration: none;
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .navbar_item:hover {
@@ -81,7 +81,7 @@ input:focus {
   background-color: #333;
   color: #fff;
   cursor: pointer;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .clearBtn {
@@ -92,10 +92,74 @@ input:focus {
   background-color: #333;
   color: #fff;
   cursor: pointer;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .searchBtn:hover,
 .clearBtn:hover {
   background-color: orange;
+}
+
+/* HOME PAGE */
+.home_page {
+  position: relative;
+  background-image: url(./images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+
+.home_page_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  height: 100%;
+
+  color: #fff;
+}
+
+.home_title {
+  margin-left: 100px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.home_description {
+  margin-left: 100px;
+  width: 250px;
+  font-size: 0.7rem;
+}
+
+.homeBtn {
+  margin-left: 100px;
+  padding: 5px 10px;
+  width: max-content;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.homeBtn:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.social {
+  position: absolute;
+  left: 2%;
+  top: 40%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 20px;
+}
+
+.link {
+  width: 25px;
 }
